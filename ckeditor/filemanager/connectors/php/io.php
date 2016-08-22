@@ -246,7 +246,7 @@ EOF;
 				$msg = 'Sorry! Your disk space is not enough to upload';
 				break;
 			default:
-				$msg = 'Error on file upload. Error number: ' + $errorNumber;
+				$msg = 'Error on file upload. Error number: ' . $errorNumber;
 				break;
 		}
 		$rpl = array('\\' => '\\\\', '"' => '\\"');
