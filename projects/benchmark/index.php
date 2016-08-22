@@ -22,4 +22,4 @@
 include '../../Kotchasan/load.php';
 // Initial Kotchasan Framework
 Kotchasan::createWebApplication()->run();
-require $_SERVER['DOCUMENT_ROOT'].'/php-framework-benchmark/libs/output_data.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/php-framework-benchmark/libs/output_data.php';

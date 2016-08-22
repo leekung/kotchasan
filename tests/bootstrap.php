@@ -9,10 +9,10 @@
  */
 $_SERVER['HTTP_HOST'] = 'localhost';
 // ตัวแปรที่จำเป็นสำหรับ Framework ใช้ระบุ root folder
-define('ROOT_PATH', dirname(dirname(__FILE__)).'/');
+define('ROOT_PATH', dirname(dirname(__FILE__)) . '/');
 // ตัวแปรที่จำเป็นสำหรับ Framework ใช้ระบุ root folder
 define('BASE_PATH', '/');
 // load Kotchasan
-include ROOT_PATH.'Kotchasan/load.php';
+include ROOT_PATH . 'Kotchasan/load.php';
 // start application for testing
 Kotchasan::createWebApplication();

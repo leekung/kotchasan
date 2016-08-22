@@ -17,5 +17,4 @@ namespace Kotchasan;
  */
 class Controller extends \Kotchasan\KBase
 {
-
 }

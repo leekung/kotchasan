@@ -8,7 +8,7 @@
 
 namespace Index\Export;
 
-use \Kotchasan\Http\Request;
+use Kotchasan\Http\Request;
 
 /**
  * default Controller
@@ -17,19 +17,19 @@ use \Kotchasan\Http\Request;
  *
  * @since 1.0
  */
-class Controller extends \Kotchasan\Controller
+class export extends \Kotchasan\Controller
 {
 
-  /**
-   * ส่งออกเป็น PDF
-   *
-   * @param Request $request
-   */
-  public function index(Request $request)
-  {
-    $pdf = new \Kotchasan\Pdf;
-    $pdf->AddPage();
-    $pdf->WriteHTML($request->post('content')->toString());
-    $pdf->Output();
-  }
+    /**
+     * ส่งออกเป็น PDF
+     *
+     * @param Request $request
+     */
+    public function index(Request $request)
+    {
+        $pdf = new \Kotchasan\Pdf;
+        $pdf->AddPage();
+        $pdf->WriteHTML($request->post('content')->toString());
+        $pdf->Output();
+    }
 }

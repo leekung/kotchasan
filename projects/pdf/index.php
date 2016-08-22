@@ -19,7 +19,7 @@
  */
 //define('DB_LOG', false);
 // Site root
-define('ROOT_PATH', str_replace(array('\\', '/projects/pdf/index.php'), array('/', ''), __FILE__).'/');
+define('ROOT_PATH', str_replace(array('\\', '/projects/pdf/index.php'), array('/', ''), __FILE__) . '/');
 // load Kotchasan
 include '../../Kotchasan/load.php';
 // Initial Kotchasan Framework

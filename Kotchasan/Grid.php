@@ -17,31 +17,31 @@ namespace Kotchasan;
  */
 class Grid extends \Kotchasan\Template
 {
+    public function __construct()
+    {
+        $this->cols = 1;
+    }
 
-  public function __construct()
-  {
-    $this->cols = 1;
-  }
+    /**
+     * กำหนดจำนวนกอลัมน์ของกริด
+     *
+     * @param int $cols จำนวนคอลัมน์ มากกว่า 0
+     * @return \static
+     */
+    public function setCols($cols)
+    {
+        $this->cols = max(1, (int)$cols);
 
-  /**
-   * กำหนดจำนวนกอลัมน์ของกริด
-   *
-   * @param int $cols จำนวนคอลัมน์ มากกว่า 0
-   * @return \static
-   */
-  public function setCols($cols)
-  {
-    $this->cols = max(1, (int)$cols);
-    return $this;
-  }
+        return $this;
+    }
 
-  /**
-   * คืนค่าจำนวนคอลัมน์ของกริด
-   *
-   * @return int
-   */
-  public function getCols()
-  {
-    return $this->cols;
-  }
+    /**
+     * คืนค่าจำนวนคอลัมน์ของกริด
+     *
+     * @return int
+     */
+    public function getCols()
+    {
+        return $this->cols;
+    }
 }

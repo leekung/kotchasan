@@ -8,7 +8,7 @@
 
 namespace Index\Index;
 
-use \Kotchasan\Http\Request;
+use Kotchasan\Http\Request;
 
 /**
  * default Controller
@@ -17,16 +17,16 @@ use \Kotchasan\Http\Request;
  *
  * @since 1.0
  */
-class Controller extends \Kotchasan\Controller
+class index extends \Kotchasan\Controller
 {
 
-  /**
-   * แสดงผล
-   *
-   * @param Request $request
-   */
-  public function index(Request $request)
-  {
-    createClass('Index\Index\View')->render();
-  }
+    /**
+     * แสดงผล
+     *
+     * @param Request $request
+     */
+    public function index(Request $request)
+    {
+        createClass('Index\Index\View')->render();
+    }
 }

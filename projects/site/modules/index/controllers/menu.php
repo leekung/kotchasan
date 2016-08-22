@@ -15,9 +15,9 @@ namespace Index\Menu;
  *
  * @since 1.0
  */
-class Controller extends \Kotchasan\Controller
+class menu extends \Kotchasan\Controller
 {
-  /*
+    /*
    * Initial Controller.
    *
    * @param array $modules
@@ -25,9 +25,9 @@ class Controller extends \Kotchasan\Controller
    * @return string
    */
 
-  public function render($module)
-  {
-    // สร้างเมนู
-    return createClass('Index\Menu\View')->render($module);
-  }
+    public function render($module)
+    {
+        // สร้างเมนู
+        return createClass('Index\Menu\View')->render($module);
+    }
 }

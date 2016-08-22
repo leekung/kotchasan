@@ -18,19 +18,19 @@ namespace Kotchasan\Http;
 class NotFound extends Response
 {
 
-  /**
-   * Send HTTP Error 404
-   *
-   * @param string||null $message ถ้าไม่กำหนดจะใช้ข้อความจากระบบ
-   * @param int $code Error Code (default 404)
-   */
-  public function __construct($message = null, $code = 404)
-  {
-    parent::__construct($code, $message);
-    $response = $this->withProtocolVersion('1.0')->withAddedHeader('Status', '404 Not Found');
-    if ($message) {
-      $response->withContent($message);
+    /**
+     * Send HTTP Error 404
+     *
+     * @param string||null $message ถ้าไม่กำหนดจะใช้ข้อความจากระบบ
+     * @param int $code Error Code (default 404)
+     */
+    public function __construct($message = null, $code = 404)
+    {
+        parent::__construct($code, $message);
+        $response = $this->withProtocolVersion('1.0')->withAddedHeader('Status', '404 Not Found');
+        if ($message) {
+            $response->withContent($message);
+        }
+        $response->send();
     }
-    $response->send();
-  }
 }

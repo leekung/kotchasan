@@ -8,8 +8,7 @@
 
 namespace Kotchasan;
 
-use \Kotchasan\Config;
-use \Kotchasan\Http\Request;
+use Kotchasan\Http\Request;
 
 /**
  * Kotchasan base class
@@ -20,16 +19,16 @@ use \Kotchasan\Http\Request;
  */
 class KBase
 {
-  /**
-   * Config class
-   *
-   * @var Config
-   */
-  static protected $cfg;
-  /**
-   * Server request class
-   *
-   * @var Request
-   */
-  static protected $request;
+    /**
+     * Config class
+     *
+     * @var Config
+     */
+    protected static $cfg;
+    /**
+     * Server request class
+     *
+     * @var Request
+     */
+    protected static $request;
 }

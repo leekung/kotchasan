@@ -8,8 +8,6 @@
 
 namespace Kotchasan\Http;
 
-use \Kotchasan\Http\AbstractMessage;
-
 /**
  * HTTP messages class (PSR-7)
  *
@@ -19,5 +17,4 @@ use \Kotchasan\Http\AbstractMessage;
  */
 class Message extends AbstractMessage
 {
-
 }
