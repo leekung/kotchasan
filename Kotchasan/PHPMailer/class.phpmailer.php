@@ -2710,8 +2710,7 @@ class PHPMailer
         $string, $line_max = 76,
         /** @noinspection PhpUnusedParameterInspection */
         $space_conv = false
-    )
-    {
+    ) {
         return $this->encodeQP($string, $line_max);
     }
 
@@ -2777,8 +2776,7 @@ class PHPMailer
      */
     public function addStringAttachment(
         $string, $filename, $encoding = 'base64', $type = '', $disposition = 'attachment'
-    )
-    {
+    ) {
         // If a MIME type is not specified, try to work it out from the file name
         if ($type == '') {
             $type = self::filenameToType($filename);
@@ -2861,8 +2859,7 @@ class PHPMailer
      */
     public function addStringEmbeddedImage(
         $string, $cid, $name = '', $encoding = 'base64', $type = '', $disposition = 'inline'
-    )
-    {
+    ) {
         // If a MIME type is not specified, try to work it out from the name
         if ($type == '' and !empty($name)) {
             $type = self::filenameToType($name);

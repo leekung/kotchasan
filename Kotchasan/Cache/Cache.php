@@ -8,9 +8,9 @@
 
 namespace Kotchasan\Cache;
 
-use \Psr\Cache\CacheItemPoolInterface;
-use \Psr\Cache\CacheItemInterface;
 use \Kotchasan\Cache\CacheItem as Item;
+use \Psr\Cache\CacheItemInterface;
+use \Psr\Cache\CacheItemPoolInterface;
 
 /**
  * Kotchasan Caching Class (base class)

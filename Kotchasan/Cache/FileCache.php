@@ -8,11 +8,11 @@
 
 namespace Kotchasan\Cache;
 
-use \Psr\Cache\CacheItemInterface;
-use \Kotchasan\Cache\CacheItem as Item;
 use \Kotchasan\Cache\Cache;
+use \Kotchasan\Cache\CacheItem as Item;
 use \Kotchasan\Cache\Exception;
 use \Kotchasan\File;
+use \Psr\Cache\CacheItemInterface;
 
 /**
  * Filesystem cache driver

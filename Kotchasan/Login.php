@@ -8,10 +8,10 @@
 
 namespace Kotchasan;
 
+use \Kotchasan\Http\Request;
+use \Kotchasan\Language;
 use \Kotchasan\LoginInterface;
 use \Kotchasan\Password;
-use \Kotchasan\Language;
-use \Kotchasan\Http\Request;
 use \Kotchasan\Text;
 
 /**

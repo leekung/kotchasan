@@ -8,9 +8,9 @@
 
 namespace Index\Forgot;
 
-use \Kotchasan\Login;
 use \Kotchasan\Html;
 use \Kotchasan\Language;
+use \Kotchasan\Login;
 
 /**
  * Forgot Form

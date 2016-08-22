@@ -8,8 +8,8 @@
 
 namespace Kotchasan;
 
-use \Kotchasan\Html;
 use \Kotchasan\Antispam;
+use \Kotchasan\Html;
 use \Kotchasan\Mime;
 
 /**

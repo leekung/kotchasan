@@ -8,11 +8,11 @@
 
 namespace Kotchasan\Log;
 
+use \Kotchasan\File;
+use \Kotchasan\Language;
+use \Kotchasan\Log\AbstractLogger;
 use \Psr\Log\LoggerInterface;
 use \Psr\Log\LogLevel;
-use \Kotchasan\Language;
-use \Kotchasan\File;
-use \Kotchasan\Log\AbstractLogger;
 
 /**
  * Kotchasan Logger Class (PSR-3)

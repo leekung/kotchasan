@@ -8,10 +8,10 @@
 
 namespace Kotchasan\Http;
 
-use \Psr\Http\Message\RequestInterface;
-use \Psr\Http\Message\UriInterface;
 use \Kotchasan\Http\AbstractMessage;
 use \Kotchasan\Http\Uri;
+use \Psr\Http\Message\RequestInterface;
+use \Psr\Http\Message\UriInterface;
 
 /**
  * Class สำหรับจัดการ URL

@@ -326,8 +326,7 @@ class SMTP
      */
     public function authenticate(
         $username, $password, $authtype = null, $realm = '', $workstation = '', $OAuth = null
-    )
-    {
+    ) {
         if (!$this->server_caps) {
             $this->setError('Authentication is not allowed before HELO/EHLO');
 

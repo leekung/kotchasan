@@ -8,10 +8,10 @@
 
 namespace Kotchasan\Orm;
 
+use \Kotchasan\ArrayTool;
 use \Kotchasan\Database\Query;
 use \Kotchasan\Database\Schema;
 use \Kotchasan\Orm\Field;
-use \Kotchasan\ArrayTool;
 
 /**
  * Recordset base class

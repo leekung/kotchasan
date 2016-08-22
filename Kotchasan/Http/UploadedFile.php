@@ -8,10 +8,10 @@
 
 namespace Kotchasan\Http;
 
-use \Psr\Http\Message\UploadedFileInterface;
 use \Kotchasan\Http\Stream;
 use \Kotchasan\Image;
 use \Kotchasan\Language;
+use \Psr\Http\Message\UploadedFileInterface;
 
 /**
  * Class สำหรับจัดการไฟล์อัปโหลด

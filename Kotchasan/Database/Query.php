@@ -8,9 +8,9 @@
 
 namespace Kotchasan\Database;
 
+use \Kotchasan\ArrayTool;
 use \Kotchasan\Database;
 use \Kotchasan\Database\Driver;
-use \Kotchasan\ArrayTool;
 
 /**
  * Database Query (base class)

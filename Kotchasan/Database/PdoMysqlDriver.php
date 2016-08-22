@@ -8,10 +8,10 @@
 
 namespace Kotchasan\Database;
 
-use \Kotchasan\Database\Driver;
 use \Kotchasan\ArrayTool;
-use \PDO;
+use \Kotchasan\Database\Driver;
 use \Kotchasan\Database\QueryBuilder;
+use \PDO;
 
 /**
  * PDO MySQL Database Adapter Class

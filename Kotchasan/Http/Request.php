@@ -8,10 +8,10 @@
 
 namespace Kotchasan\Http;
 
-use \Psr\Http\Message\RequestInterface;
+use \Kotchasan\Files;
 use \Kotchasan\InputItem;
 use \Kotchasan\Inputs;
-use \Kotchasan\Files;
+use \Psr\Http\Message\RequestInterface;
 
 /**
  * คลาสสำหรับจัดการตัวแปรต่างๆจาก Server

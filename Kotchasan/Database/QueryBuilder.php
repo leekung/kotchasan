@@ -8,8 +8,8 @@
 
 namespace Kotchasan\Database;
 
-use \Kotchasan\Database\Driver;
 use \Kotchasan\ArrayTool;
+use \Kotchasan\Database\Driver;
 
 /**
  * SQL Query builder

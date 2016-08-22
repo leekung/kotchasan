@@ -8,8 +8,8 @@
 
 namespace Kotchasan;
 
-use \Kotchasan\DOMParser;
 use \Kotchasan\DOMNode;
+use \Kotchasan\DOMParser;
 
 /**
  * Pdf Class
